@@ -1,10 +1,14 @@
 <html>
     <body>
         <button onclick="onFRClick()">FR</button>
+        <button onclick="onHelloClick()">Hello</button>
         <p id="debugTextId">...</p>
         <script>
             function onFRClick(){
                 document.getElementById("debugTextId").innerHTML = "bonjour";
+            }
+            function onHelloClick(){
+                document.getElementById("debugTextId").innerHTML = "hello";
             }
         </script>
     </body>
